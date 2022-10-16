@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chequesLoaded_ofReport">Чеков загружено</string>
+    <string name="recordsLoaded_ofReport">Записей загружено</string>
+    <string name="chequesRejected_ofReport">Чеков отклонено</string>
+    <string name="recordsRejected_ofReport">Записей отклонено</string>
+</resources>

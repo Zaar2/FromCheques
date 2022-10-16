@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="countOfCheques">Чеков</string>
+<!--    <string name="countOfPurchase">Покупок</string>-->
+    <string name="countOfItems">Наименований товаров</string>
+    <string name="countEntries_purchaseOfItems">Всего записей о покупке всех товаров</string>
+</resources>

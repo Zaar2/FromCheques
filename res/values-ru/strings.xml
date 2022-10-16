@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="write_file_sd">Записать файл на SD</string>
+    <string name="read_file_sd">Прочесть файл с SD</string>
+
+    <string name="write_done">Запись выполнена</string>
+    <string name="write_file">Записать данные в файл</string>
+    <string name="readFile_uploadDB">Считать файл и занести в базу</string>
+    <string name="delete_rowsOfTable">Удалить все записи</string>
+
+    <string name="nameAppDirectory">cheques</string>
+    <string name="rows_deleted">строк удалено</string>
+    <string name="productList">Список продуктов</string>
+    <string name="_rub">руб.</string>
+    <string name="_esc">Назад</string>
+    <string name="_find">Поиск</string>
+    <string name="_deleteFile">Удалить файл</string>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="_json" translatable="false">.json</string>
+
+    <string name="write_file_sd">Write file to SD</string>
+    <string name="read_file_sd">Read file from SD</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="write_done">Recorded</string>
+    <string name="write_file">Write data to file</string>
+    <string name="readFile_uploadDB">Read the file and put it in the database</string>
+    <string name="delete_rowsOfTable">Delete all records</string>
+
+    <string name="nameAppDirectory">cheques</string>
+    <string name="rows_deleted">rows deleted</string>
+    <string name="productList">List of items</string>
+    <string name="_title" translatable="false">title</string>
+    <string name="_rub">rub.</string>
+    <string name="_esc">ESC</string>
+    <string name="help" translatable="false">\?\?\?</string>
+    <string name="_find">Find</string>
+    <string name="_deleteFile">Delete file</string>
+
+    <string name="_type" translatable="false">type</string>
+    <string name="_helpDialog" translatable="false">helpDialog</string>
+    <string name="_processingDialog" translatable="false">processingDialog</string>
+    <string name="_tag" translatable="false">tag</string>
+</resources>
