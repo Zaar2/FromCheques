@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_in_frame_of_statistics">3dp</dimen> <!--  -->
+
+    <dimen name="size_of_text_resources_title">17sp</dimen> <!-- text resources years -->
+    <dimen name="size_of_text_resources">17sp</dimen> <!-- text resources -->
+
+    <!--    <dimen name="size_of_text_button_mainOption">15sp</dimen> &lt;!&ndash; названия кнопок в основном меню игры &ndash;&gt;-->
+
+    <dimen name="size_of_text_button_panel">15sp</dimen> <!-- название кнопки над панелью индикаторов -->
+
+    <!--    <dimen name="size_of_text_title_in_frame_of_statistics">20sp</dimen> &lt;!&ndash; заголовок блока показателей &ndash;&gt;-->
+    <dimen name="size_of_text_in_panel">15sp</dimen> <!-- текст позателей -->
+
+    <dimen name="size_of_fragmentText_title">15sp</dimen> <!-- заголовок во фрейме с SeekBar -->
+    <dimen name="size_of_fragmentText">12sp</dimen> <!-- текст во фрейме с SeekBar -->
+
+    <dimen name="size_of_font_infoEvent">20sp</dimen> <!-- текст инвормации о событии -->
+</resources>

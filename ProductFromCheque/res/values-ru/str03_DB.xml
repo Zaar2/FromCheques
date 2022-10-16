@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    namesColumn tableOperationType-->
+    <string name="strDB_arrival">Приход</string>
+    <string name="strDB_return_arrival">Возврат прихода</string>
+    <string name="strDB_expense">Расход</string>
+    <string name="strDB_return_expense">Возврат расхода</string>
+</resources>

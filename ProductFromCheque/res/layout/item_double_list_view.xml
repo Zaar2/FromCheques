@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginTop="5dp"
+    >
+    <TextView
+        android:id="@+id/tvLeft_ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="50"
+        android:text="@string/tagCheque_user"
+        style="@style/subItem_myListView"
+        />
+    <TextView
+        android:id="@+id/tvRight_ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_weight="50"
+        android:text="@string/tagCheque_retailPlace"
+        style="@style/subItem_myListView"
+        />
+</LinearLayout>

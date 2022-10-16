@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_database" translatable="false">ChequeParser.db</string>
+    <string name="_selection" translatable="false">selection</string>
+    <string name="_selectionArgs" translatable="false">selectionArgs</string>
+    <string name="_countInserted" translatable="false">countInserted</string>
+    <string name="_countRows_inDataSet" translatable="false">countRows_inDataSet</string>
+    <string name="_countInserted_cheques" translatable="false">countInserted_cheques</string>
+    <string name="_countInserted_items" translatable="false">countInserted_items</string>
+<!--    nameTables-->
+    <string name="strDB_NAME_table_cheques" translatable="false">cheques</string>
+    <string name="strDB_NAME_table_purchase_product" translatable="false">purchase_items</string>
+    <string name="strDB_NAME_table_seller" translatable="false">seller</string>
+    <string name="strDB_NAME_table_type_nds" translatable="false">type_nds</string>
+    <string name="strDB_name_table_operation_type" translatable="false">operation_type</string>
+    <!--   name temporaryTables-->
+    <string name="strDB_NAME_temporaryTables_cheques" translatable="false">cheques_temp</string>
+    <string name="strDB_NAME_temporaryTables_purchase_product" translatable="false">purchase_items_temp</string>
+    <string name="strDB_NAME_temporaryTables_seller" translatable="false">seller_temp</string>
+    <string name="strDB_NAME_temporaryTables_type_nds" translatable="false">type_nds_temp</string>
+    <string name="strDB_name_temporaryTables_operation_type" translatable="false">operation_type_temp</string>
+    <!--    namesColumn tableNDS-->
+    <string name="strDB_nds20" translatable="false">nds20</string>
+    <string name="strDB_nds10" translatable="false">nds10</string>
+    <string name="strDB_nds20_120" translatable="false">nds20_120</string>
+    <string name="strDB_nds10_110" translatable="false">nds10_110</string>
+    <string name="strDB_nds0" translatable="false">nds0</string>
+    <string name="strDB_nds_notTaxable" translatable="false">nds_notTaxable</string>
+<!--    value of rows tableNDS-->
+    <string name="valueDB_nds20" translatable="false">20%</string>
+    <string name="valueDB_nds10" translatable="false">10%</string>
+    <string name="valueDB_nds20_120" translatable="false">20/120</string>
+    <string name="valueDB_nds10_110" translatable="false">10/110</string>
+    <string name="valueDB_nds0" translatable="false">0%</string>
+    <string name="valueDB_nds_notTaxable" translatable="false">--</string>
+<!--    namesColumn tableOperationType-->
+    <string name="strDB_arrival">Income</string>
+    <string name="strDB_return_arrival">Return of a income</string>
+    <string name="strDB_expense">Expense</string>
+    <string name="strDB_return_expense">return of a expense</string>
+<!--   string-array: foreignKeys for itemTable-->
+    <string-array name="tagsCheque_foreignKey_forItem">
+        <item>@string/tagCheque_fiscalDriveNumber</item>
+        <item>@string/tagCheque_dateTime</item>
+        <item>@string/tagCheque_kktRegId</item>
+        <item>@string/tagCheque_fiscalDocumentNumber</item>
+    </string-array>
+<!--    string-array: all tables-->
+    <string-array name="allTablesDB">
+        <item>@string/strDB_NAME_table_cheques</item>
+        <item>@string/strDB_NAME_table_purchase_product</item>
+<!--        <item>@string/strDB_NAME_table_seller</item>-->
+    </string-array>
+    <!--    string-array: all temporary tables-->
+    <string-array name="allTablesDB_temp">
+<!--        <item>@string/strDB_NAME_temporaryTables_cheques</item>-->
+        <item>@string/strDB_NAME_temporaryTables_purchase_product</item>
+<!--        <item>@string/strDB_NAME_temporaryTables_seller</item>-->
+    </string-array>
+    <string-array name="tagsIncludedInPurchaseTable">
+        <item>@string/tagCheque_nameItem</item>
+        <item>@string/tagCheque_quantity</item>
+        <item>@string/tagCheque_price</item>
+        <item>@string/tagCheque_unit</item>
+        <item>@string/tagCheque_nds</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_menu">Опции</string>
+    <string name="menuOption_parser">Загрузка новых чеков</string>
+    <string name="menuOption_product">Товары</string>
+    <string name="menuOption_retailPlace">Продавцы</string>
+    <string name="menuOption_deleteDB">Удалить базу данных</string>
+
+
+    <string name="informationOfDatabase">Общая информация</string>
+
+</resources>

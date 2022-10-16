@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="errors_of_insert" translatable="false">errorsOfInsert</string>
+    
+    <string name="chequesLoaded_ofReport">Checks loaded</string>
+    <string name="recordsLoaded_ofReport">Records loaded</string>
+    <string name="chequesRejected_ofReport">Checks rejected</string>
+    <string name="recordsRejected_ofReport">Records rejected</string>
+    
+    <string-array name="reportItems">
+        <item>@string/chequesLoaded_ofReport</item>
+        <item>@string/recordsLoaded_ofReport</item>
+        <item>@string/chequesRejected_ofReport</item>
+        <item>@string/recordsRejected_ofReport</item>
+    </string-array>
+</resources>
